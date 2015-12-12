@@ -1,0 +1,11 @@
+# Site settings
+title: Austin Payne
+email: payneaustin5@gmail.com
+description: "Personal website of Austin Payne"
+baseurl: ""
+url: "http://amp.ninja"
+
+# Built settings
+markdown: kramdown
+highlighter: pygments
+permalink: /:categories/:title/

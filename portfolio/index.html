@@ -1,0 +1,13 @@
+---
+layout: default
+title: Portfolio
+---
+<p>Check out my projects below!</p>
+
+<ul class="entries">
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ul>
